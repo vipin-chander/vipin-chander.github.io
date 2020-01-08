@@ -1,0 +1,22 @@
+@import "variables";
+
+/* margin and padding */
+$gapamounts: (0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 75, 100);
+$sides: (top, bottom, left, right);
+
+@each $gap in $gapamounts {
+  @each $side in $sides {
+    .mar-#{($side)}-#{$gap} {
+      margin-#{$side}: #{$gap}px;
+    }
+    .mar-all-#{$gap} {
+      margin: #{$gap}px;
+    }
+    .pad-#{($side)}-#{$gap} {
+      padding-#{$side}: #{$gap}px;
+    }
+    .pad-all-#{$gap} {
+      padding: #{$gap}px;
+    }
+  }
+}
