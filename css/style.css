@@ -1789,7 +1789,12 @@ header.active .hem-btn:before, header.active .hem-btn:after {
 
 /* line 515, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .cat {
-  width: 100%;
+  margin-bottom: 25px;
+}
+
+/* line 517, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+.cat h5 {
+  letter-spacing: 2px;
 }
 
 /*# sourceMappingURL=../css/style.map */
