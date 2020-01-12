@@ -1795,6 +1795,7 @@ header.active .hem-btn:before, header.active .hem-btn:after {
 /* line 517, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .cat h5 {
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=../css/style.map */
