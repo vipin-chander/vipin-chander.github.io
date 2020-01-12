@@ -81,7 +81,7 @@ header {
       }
     }
   }
-  &.active {
+  &.active, &.active2{
     background: rgba(255, 255, 255, 1);
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.6);
     nav {
@@ -142,6 +142,27 @@ header {
   }
 }
 
+.inner-sec-header{
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.6);
+  nav {
+    border-bottom: 1px solid transparent;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
+  a {
+    color: $theme-color;
+    &:hover {
+      color: $primary-white-color;
+      background: $theme-color;
+    }
+  }
+  .cust-line-b {
+    &:after {
+      display: none;
+    }
+  }
+}
 .cust-line-b {
   &:after {
     position: absolute;
