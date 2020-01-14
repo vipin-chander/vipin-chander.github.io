@@ -518,10 +518,12 @@ header {
   }
 }
 .point-image{
+  text-align: center;
   img{
     width: auto;
     height: auto;
     max-height: 640px;
+    max-width: 100%;
   }
   &.bnr{
     img{
@@ -532,9 +534,12 @@ header {
 }
 .d-point-image{
   display: block;
+  text-align: center;
   img{
     display: inline-block;
-    width: 45%;
+    height: 640px;
+    width: auto;
+    max-width: 100%;
     margin:  20px;
   }
 }
