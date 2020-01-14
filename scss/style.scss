@@ -518,8 +518,10 @@ header {
   }
 }
 .point-image{
-  width: 100%;
-  height: auto;
+  img{
+    width: 100%;
+    height: auto;
+  }
 }
 .d-point-image{
   display: block;

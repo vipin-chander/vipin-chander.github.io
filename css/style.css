@@ -1879,18 +1879,18 @@ header.active .hem-btn:before, header.active .hem-btn:after {
   text-transform: uppercase;
 }
 
-/* line 520, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-.point-image {
+/* line 521, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+.point-image img {
   width: 100%;
   height: auto;
 }
 
-/* line 524, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 526, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .d-point-image {
   display: block;
 }
 
-/* line 526, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 528, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .d-point-image img {
   display: inline-block;
   width: 45%;
