@@ -1870,21 +1870,22 @@ header.active .hem-btn:before, header.active .hem-btn:after {
 
 /* line 513, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .cat {
-  margin: 25px 0;
+  margin: 40px 0 30px;
 }
 
 /* line 515, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .cat h5 {
   letter-spacing: 2px;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
-/* line 520, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 521, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .point-image {
   text-align: center;
 }
 
-/* line 522, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 523, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .point-image img {
   width: auto;
   height: auto;
@@ -1892,20 +1893,20 @@ header.active .hem-btn:before, header.active .hem-btn:after {
   max-width: 100%;
 }
 
-/* line 529, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 530, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .point-image.bnr img {
   width: 100%;
   max-height: 1500px;
 }
 
-/* line 535, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 536, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .d-point-image {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
-/* line 539, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 540, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .d-point-image img {
   height: 640px;
   /* width: auto;
