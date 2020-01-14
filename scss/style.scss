@@ -525,6 +525,8 @@ header {
     height: auto;
     max-height: 640px;
     max-width: 100%;
+    box-shadow: 0px 60px 65px 10px rgba(0,0,0,.1); 
+    border-radius: 16px;
   }
   &.bnr{
     img{
@@ -542,5 +544,7 @@ header {
     /* width: auto;
     max-width: 100%; */
     margin:  20px;
+    box-shadow: 0px 60px 65px 10px rgba(0,0,0,.1); 
+    border-radius: 16px;
   }
 }

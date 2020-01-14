@@ -1891,27 +1891,31 @@ header.active .hem-btn:before, header.active .hem-btn:after {
   height: auto;
   max-height: 640px;
   max-width: 100%;
+  box-shadow: 0px 60px 65px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
 }
 
-/* line 530, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 532, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .point-image.bnr img {
   width: 100%;
   max-height: 1500px;
 }
 
-/* line 536, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 538, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .d-point-image {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
-/* line 540, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 542, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .d-point-image img {
   height: 640px;
   /* width: auto;
     max-width: 100%; */
   margin: 20px;
+  box-shadow: 0px 60px 65px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
 }
 
 /*# sourceMappingURL=../css/style.map */
