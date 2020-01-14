@@ -1879,4 +1879,22 @@ header.active .hem-btn:before, header.active .hem-btn:after {
   text-transform: uppercase;
 }
 
+/* line 520, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+.point-image {
+  width: 100%;
+  height: auto;
+}
+
+/* line 524, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+.d-point-image {
+  display: block;
+}
+
+/* line 526, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+.d-point-image img {
+  display: inline-block;
+  width: 45%;
+  margin: 20px auto;
+}
+
 /*# sourceMappingURL=../css/style.map */

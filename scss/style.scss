@@ -517,3 +517,15 @@ header {
     text-transform: uppercase;
   }
 }
+.point-image{
+  width: 100%;
+  height: auto;
+}
+.d-point-image{
+  display: block;
+  img{
+    display: inline-block;
+    width: 45%;
+    margin:  20px auto;
+  }
+}
