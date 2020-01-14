@@ -1900,16 +1900,16 @@ header.active .hem-btn:before, header.active .hem-btn:after {
 
 /* line 535, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .d-point-image {
-  display: block;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-/* line 538, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 539, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .d-point-image img {
-  display: inline-block;
   height: 640px;
-  width: auto;
-  max-width: 100%;
+  /* width: auto;
+    max-width: 100%; */
   margin: 20px;
 }
 

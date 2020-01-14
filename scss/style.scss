@@ -533,13 +533,13 @@ header {
   }
 }
 .d-point-image{
-  display: block;
-  text-align: center;
+  display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   img{
-    display: inline-block;
     height: 640px;
-    width: auto;
-    max-width: 100%;
+    /* width: auto;
+    max-width: 100%; */
     margin:  20px;
   }
 }
