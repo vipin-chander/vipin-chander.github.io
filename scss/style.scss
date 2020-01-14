@@ -283,11 +283,11 @@ header {
 .portfolio-wrapper {
   padding-top: 100px;
   padding-bottom: 70px;
-  // background: #2980B9;
-  // background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
-  // background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
+  /* background: #2980B9;
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
+  background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); */
 
-  background: rgba(255, 255, 255, 0.88);
+  /* background: rgba(255, 255, 255, 0.88);
   background: -moz-linear-gradient(
     top,
     rgba(255, 255, 255, 0.88) 0%,
@@ -325,8 +325,23 @@ header {
     rgba(13, 214, 250, 0.5) 50%,
     rgba(41, 128, 185, 0.8) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#2980b9', GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#2980b9', GradientType=0 ); */
   .project{
+    padding:  50px 0;
+    .rgt{
+      padding:  20px 40px;
+      h5{
+        font-size: 1.5rem;
+        color: $theme-color;
+      }
+      p{font-size: 1rem;}
+    }
+    &.even-prj{
+      flex-direction: row-reverse;
+      .rgt{
+        text-align: right;
+      }
+    }
     img{
       width: 100%;
       height: auto;
@@ -411,6 +426,16 @@ header {
   .home-banner{
     height: 460px;
   }
+  .project{
+    padding:  30px 0;
+    .rgt{
+      padding:  20px 0px;
+      text-align: left;
+    }
+    &.even-prj{
+      flex-direction: row;
+    }
+  }
   header {
     background: #fff;
     .navbar{
@@ -487,6 +512,7 @@ header {
 
 .cat{
   margin-bottom: 25px;
+  color: $theme-color;
   h5{
     letter-spacing: 2px;
     text-transform: uppercase;

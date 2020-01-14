@@ -222,7 +222,43 @@ button:focus {
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.4);
 }
 
-/* line 172, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
+/* line 170, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
+.cta.text {
+  height: auto;
+  color: #034184;
+  padding: 0 0 2px 0;
+  border: none;
+  width: auto;
+  background: none;
+  position: relative;
+}
+
+/* line 178, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
+.cta.text:after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #034184;
+  display: block;
+  position: absolute;
+  border-radius: 2px;
+  transition: all 0.4s ease-in-out;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 190, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
+.cta.text:hover {
+  background: none;
+  box-shadow: none;
+}
+
+/* line 193, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
+.cta.text:hover:after {
+  width: 100%;
+}
+
+/* line 200, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
 .main-heading {
   position: relative;
   display: inline-block;
@@ -231,7 +267,7 @@ button:focus {
   text-transform: uppercase;
 }
 
-/* line 178, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
+/* line 206, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
 .main-heading:before, .main-heading:after {
   content: "";
   height: 4px;
@@ -243,17 +279,17 @@ button:focus {
   transition: all 0.4s ease-in-out;
 }
 
-/* line 189, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
+/* line 217, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
 .main-heading:before {
   top: -5px;
 }
 
-/* line 192, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
+/* line 220, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
 .main-heading:after {
   bottom: -5px;
 }
 
-/* line 196, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
+/* line 224, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
 .main-heading:hover:before, .main-heading:hover:after {
   width: 100%;
 }

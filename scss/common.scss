@@ -167,6 +167,34 @@ button {
     background: $primary-white-color;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.4);
   }
+  &.text{
+    height: auto;
+    color: $theme-color;
+    padding: 0 0 2px 0;
+    border: none;
+    width: auto;
+    background: none;
+    position: relative;
+    &:after{
+      content: "";
+      height: 3px;
+      width: 0;
+      background: #034184;
+      display: block;
+      position: absolute;
+      border-radius: 2px;
+      transition: all 0.4s ease-in-out;
+      bottom: 0;
+      left:  0;
+    }
+    &:hover{
+      background: none;
+      box-shadow: none;
+      &:after {
+        width: 100%;
+      }
+    }
+  }
 }
 
 .main-heading {
