@@ -519,8 +519,15 @@ header {
 }
 .point-image{
   img{
-    width: 100%;
+    width: auto;
     height: auto;
+    max-height: 640px;
+  }
+  &.bnr{
+    img{
+      width: 100%;
+      max-height: 1500px
+    }
   }
 }
 .d-point-image{
@@ -528,6 +535,6 @@ header {
   img{
     display: inline-block;
     width: 45%;
-    margin:  20px auto;
+    margin:  20px;
   }
 }
