@@ -294,4 +294,10 @@ button:focus {
   width: 100%;
 }
 
+/* line 230, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
+.bx-sdw {
+  border-radius: 16px;
+  box-shadow: 0px 60px 65px 10px rgba(0, 0, 0, 0.1);
+}
+
 /*# sourceMappingURL=../css/common.map */
