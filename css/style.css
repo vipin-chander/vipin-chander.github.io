@@ -1893,22 +1893,23 @@ header.active .hem-btn:before, header.active .hem-btn:after {
   max-width: 100%;
   box-shadow: 0px 60px 65px 10px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
+  margin: 20px 0;
 }
 
-/* line 532, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 533, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .point-image.bnr img {
   width: 100%;
   max-height: 1500px;
 }
 
-/* line 538, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 539, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .d-point-image {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
-/* line 542, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 543, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .d-point-image img {
   height: 640px;
   /* width: auto;
