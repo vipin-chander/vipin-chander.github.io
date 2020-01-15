@@ -328,6 +328,9 @@ header {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#2980b9', GradientType=0 ); */
   .project{
     padding:  50px 0;
+    &:last-of-type{
+      padding-bottom: 0;
+    }
     .rgt{
       padding:  20px 40px;
       h5{
