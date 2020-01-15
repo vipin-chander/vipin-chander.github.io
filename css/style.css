@@ -1685,12 +1685,12 @@ header.active .hem-btn:before, header.active .hem-btn:after {
 }
 
 /* line 356, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-.banner-wrapper {
+.project-hero-image {
   padding: 100px 100px 0;
 }
 
 /* line 358, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-.banner-wrapper img {
+.project-hero-image img {
   box-shadow: 0px 0px 34px 4px rgba(0, 0, 0, 0.2);
   border-radius: 16px;
 }
