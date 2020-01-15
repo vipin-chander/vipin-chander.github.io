@@ -89,7 +89,7 @@ header {
       padding-top: 0rem !important;
       padding-bottom: 0rem !important;
     }
-    a {
+    .nav-link {
       color: $theme-color;
       &:hover {
         color: $primary-white-color;
@@ -381,14 +381,15 @@ header {
     justify-content: flex-start;
     color: $secondary-dark-color;
     align-items: center;
+    flex-wrap: wrap;
     span {
-      margin: 0 20px;
+      margin: 0 10px;
     }
   }
   h4 {
     color: $theme-color;
     text-transform: capitalize;
-    margin: 0;
+    margin: 0 5px 0 0;
   }
 }
 
