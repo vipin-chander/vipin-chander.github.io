@@ -1787,137 +1787,29 @@ header.active .hem-btn:before, header.active .hem-btn:after {
   filter: grayscale(0);
 }
 
-@media screen and (min-width: 320px) and (max-width: 991px) {
-  /* line 438, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  .home-banner {
-    height: 460px;
-  }
-  /* line 441, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  .project-hero-image {
-    padding: 50px 20px 0;
-  }
-  /* line 444, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  .project {
-    padding: 30px 0;
-  }
-  /* line 446, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  .project .rgt {
-    padding: 20px 0px;
-    text-align: left;
-  }
-  /* line 450, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  .project.even-prj {
-    flex-direction: row;
-  }
-  /* line 454, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  header {
-    background: #fff;
-  }
-  /* line 456, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  header .navbar {
-    padding: .5rem 2rem;
-  }
-  /* line 459, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  header .navbar-nav {
-    flex-direction: row;
-  }
-  /* line 463, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  header .navbar-nav .nav-item:last-of-type .nav-link {
-    padding-right: 0 !important;
-  }
-  /* line 466, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  header .navbar-nav .nav-link {
-    padding: .5rem !important;
-    font-size: .8rem;
-    color: #034184;
-  }
-  /* line 472, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  header .navbar-brand img {
-    width: 40px;
-  }
-  /* line 476, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  .d3-layer {
-    right: auto;
-    padding: 0 15px;
-    /*margin-top: 60px;*/
-  }
-  /* line 481, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  .d3-layer.bottomL:before {
-    opacity: 0;
-  }
-  /* line 484, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  .d3-layer-right {
-    display: none;
-  }
-  /* line 487, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  .title {
-    padding: 16px;
-  }
-  /* line 489, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  .title h1 {
-    font-size: 1.5rem;
-  }
-  /* line 491, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  .title h1 small {
-    font-size: 70%;
-  }
-  /* line 494, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  .title h1 + p {
-    font-size: 1rem;
-  }
-  /* line 500, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  .footer .lft-pnl {
-    text-align: center;
-  }
-  /* line 501, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  .footer .rgt-pnl {
-    text-align: center;
-    border-top: 1px solid #fff;
-    padding-top: 20px;
-  }
-  /* line 506, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  .footer .rgt-pnl .social-icons a {
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-  /* line 513, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  .social-icons {
-    margin: 15px 0 0 15px !important;
-  }
-  /* line 515, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  .social-icons img {
-    height: 24px;
-    margin-right: 16px;
-  }
-  /* line 521, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
-  .aboutMe-wrapper .leftPane {
-    text-align: center;
-  }
-}
-
-/* line 528, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 436, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .cat {
   margin: 30px 0 20px;
 }
 
-/* line 530, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 438, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .cat h5 {
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
 
-/* line 535, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 443, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .cat ol {
   margin-bottom: 0;
 }
 
-/* line 539, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 447, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .point-image {
   text-align: center;
 }
 
-/* line 541, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 449, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .point-image img {
   width: auto;
   height: auto;
@@ -1928,20 +1820,20 @@ header.active .hem-btn:before, header.active .hem-btn:after {
   margin: 20px 0;
 }
 
-/* line 551, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 459, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .point-image.bnr img {
   width: 100%;
   max-height: 1500px;
 }
 
-/* line 557, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 465, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .d-point-image {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
-/* line 561, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+/* line 469, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
 .d-point-image img {
   height: 640px;
   /* width: auto;
@@ -1949,6 +1841,123 @@ header.active .hem-btn:before, header.active .hem-btn:after {
   margin: 20px;
   box-shadow: 0px 60px 65px 10px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+  /* line 480, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .home-banner {
+    height: 460px;
+  }
+  /* line 483, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .project-hero-image {
+    padding: 50px 20px 0;
+  }
+  /* line 486, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .portfolio-wrapper .project {
+    padding: 30px 0;
+  }
+  /* line 488, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .portfolio-wrapper .project .rgt {
+    padding: 20px 15px;
+    text-align: left !important;
+  }
+  /* line 492, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .portfolio-wrapper .project.even-prj {
+    flex-direction: row;
+  }
+  /* line 496, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  header {
+    background: #fff;
+  }
+  /* line 498, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  header .navbar {
+    padding: .5rem 2rem;
+  }
+  /* line 501, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  header .navbar-nav {
+    flex-direction: row;
+  }
+  /* line 505, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  header .navbar-nav .nav-item:last-of-type .nav-link {
+    padding-right: 0 !important;
+  }
+  /* line 508, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  header .navbar-nav .nav-link {
+    padding: .5rem !important;
+    font-size: .8rem;
+    color: #034184;
+  }
+  /* line 514, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  header .navbar-brand img {
+    width: 40px;
+  }
+  /* line 518, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .d3-layer {
+    right: auto;
+    padding: 0 15px;
+    /*margin-top: 60px;*/
+  }
+  /* line 523, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .d3-layer.bottomL:before {
+    opacity: 0;
+  }
+  /* line 526, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .d3-layer-right {
+    display: none;
+  }
+  /* line 529, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .title {
+    padding: 16px;
+  }
+  /* line 531, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .title h1 {
+    font-size: 1.5rem;
+  }
+  /* line 533, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .title h1 small {
+    font-size: 70%;
+  }
+  /* line 536, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .title h1 + p {
+    font-size: 1rem;
+  }
+  /* line 542, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .footer .lft-pnl {
+    text-align: center;
+  }
+  /* line 543, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .footer .rgt-pnl {
+    text-align: center;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+  }
+  /* line 548, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .footer .rgt-pnl .social-icons a {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  /* line 555, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .social-icons {
+    margin: 15px 0 0 15px !important;
+  }
+  /* line 557, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .social-icons img {
+    height: 24px;
+    margin-right: 16px;
+  }
+  /* line 563, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .aboutMe-wrapper .leftPane {
+    text-align: center;
+  }
+  /* line 567, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .d-point-image {
+    flex-direction: column;
+  }
+  /* line 569, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/style.scss */
+  .d-point-image img {
+    width: 80%;
+    height: auto;
+  }
 }
 
 /*# sourceMappingURL=../css/style.map */

@@ -433,6 +433,48 @@ header {
   }
 }
 
+.cat{
+  margin: 30px 0 20px;
+  h5{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  ol{
+    margin-bottom: 0;
+  }
+}
+.point-image{
+  text-align: center;
+  img{
+    width: auto;
+    height: auto;
+    max-height: 640px;
+    max-width: 100%;
+    box-shadow: 0px 60px 65px 10px rgba(0,0,0,.1); 
+    border-radius: 16px;
+    margin:  20px 0;
+  }
+  &.bnr{
+    img{
+      width: 100%;
+      max-height: 1500px
+    }
+  }
+}
+.d-point-image{
+  display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  img{
+    height: 640px;
+    /* width: auto;
+    max-width: 100%; */
+    margin:  20px;
+    box-shadow: 0px 60px 65px 10px rgba(0,0,0,.1); 
+    border-radius: 16px;
+  }
+}
 
 @media screen and (min-width: 320px) and (max-width: 991px) {
   .home-banner{
@@ -441,11 +483,11 @@ header {
   .project-hero-image{
     padding: 50px 20px 0;
   }
-  .project{
+  .portfolio-wrapper .project{
     padding:  30px 0;
     .rgt{
-      padding:  20px 0px;
-      text-align: left;
+      padding:  20px 15px;
+      text-align: left !important;
     }
     &.even-prj{
       flex-direction: row;
@@ -522,48 +564,11 @@ header {
       text-align: center;
     }
   }
-  
-}
-
-.cat{
-  margin: 30px 0 20px;
-  h5{
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-  }
-  ol{
-    margin-bottom: 0;
-  }
-}
-.point-image{
-  text-align: center;
-  img{
-    width: auto;
-    height: auto;
-    max-height: 640px;
-    max-width: 100%;
-    box-shadow: 0px 60px 65px 10px rgba(0,0,0,.1); 
-    border-radius: 16px;
-    margin:  20px 0;
-  }
-  &.bnr{
+  .d-point-image{
+    flex-direction: column;
     img{
-      width: 100%;
-      max-height: 1500px
+      width: 80%;
+      height: auto;
     }
-  }
-}
-.d-point-image{
-  display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  img{
-    height: 640px;
-    /* width: auto;
-    max-width: 100%; */
-    margin:  20px;
-    box-shadow: 0px 60px 65px 10px rgba(0,0,0,.1); 
-    border-radius: 16px;
   }
 }
