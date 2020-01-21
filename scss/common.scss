@@ -1,13 +1,13 @@
 @import "variables";
 html {
   font-size: 16px;
-  letter-spacing: 0.3px;
-  line-height: 1.7;
   scroll-behavior: smooth;
 }
 body {
   font-family: $font-stack !important;
   color: $secondary-dark-color;
+  letter-spacing: 0.3px;
+  line-height: 1.7;
 }
 body::-webkit-scrollbar {
   width: 7px;

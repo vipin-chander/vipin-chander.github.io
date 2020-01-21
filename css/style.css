@@ -1,15 +1,15 @@
 /* line 2, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
 html {
   font-size: 16px;
-  letter-spacing: 0.3px;
-  line-height: 1.7;
   scroll-behavior: smooth;
 }
 
-/* line 8, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
+/* line 6, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
 body {
   font-family: "Lato", sans-serif !important;
   color: rgba(47, 54, 64, 0.8);
+  letter-spacing: 0.3px;
+  line-height: 1.7;
 }
 
 /* line 12, /Users/Vipin/Desktop/github/vipin-chander.github.io/scss/common.scss */
