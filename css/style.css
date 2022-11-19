@@ -1963,4 +1963,63 @@ header.active .hem-btn:before, header.active .hem-btn:after {
   }
 }
 
+#ac-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+}
+#popup {
+    width: 600px;
+    height: 300px;
+    background: #FFFFFF;
+    padding:  32px;
+    margin:  0 auto;
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    /* -webkit-border-radius: 8px;
+    box-shadow: #64686e 0px 0px 3px 3px;
+    -moz-box-shadow: #64686e 0px 0px 3px 3px;
+    -webkit-box-shadow: #64686e 0px 0px 3px 3px; */
+    position: relative;
+    top: calc(50% - 150px);
+
+    visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+#popup span{
+      display: block;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    cursor: pointer;
+}
+#popup span img{
+      display: block;
+}
+#popup p{
+      font-size:  18px;
+      margin-bottom: 16px;
+}
+
+#popup p:last-of-type{
+      margin-bottom: 0px;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
 /*# sourceMappingURL=../css/style.map */
