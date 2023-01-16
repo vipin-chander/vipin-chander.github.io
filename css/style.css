@@ -1963,16 +1963,7 @@ header.active .hem-btn:before, header.active .hem-btn:after {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 700px) {
-#popup{
-  width:  90%;
-  padding:  16px;
-  height: auto;
-  top: calc(50% - 200px);
-}
 
-
-}
 
 #ac-wrapper {
     position: fixed;
@@ -2024,6 +2015,14 @@ header.active .hem-btn:before, header.active .hem-btn:after {
       margin-bottom: 0px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 700px) {
+#popup{
+  width:  90%;
+  padding:  16px;
+  height: auto;
+  top: calc(50% - 200px);
+}
+}
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
   from {opacity: 0;} 
