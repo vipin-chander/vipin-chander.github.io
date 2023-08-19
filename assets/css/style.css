@@ -230,6 +230,9 @@ footer .social-icons img{
     margin-bottom: 8px !important;
 }
 
+.csd-body li strong{font-weight: 600;}
+.csd-body p strong{font-weight: 600;}
+
 @media only screen and (min-width: 1024px) {
 .dnoshow{display: none !important;}
 }
