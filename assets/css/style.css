@@ -3,7 +3,7 @@
 .txtgrey{color: var(--grey);}
 
 :root {
-    --grey: #1B1C1E;
+    --grey: #404040;
     --white:#ffffff;
     --themefont: 'Poppins', sans-serif;
     --themecolor: #0956F1;
