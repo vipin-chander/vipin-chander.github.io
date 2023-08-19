@@ -190,12 +190,18 @@ footer .social-icons img{
     height: auto;
     max-height: 480px;
 }
+.cs3 figure img{
+    width: auto;
+    height: auto;
+    max-height: 480px;
+}
 
 .cs4 figure img{
-    width: 100%;
+    width: auto;
     max-width: 900px;
     height: auto;
     max-height: 640px;
+    box-shadow: none;
 }
 
 .cs5 figure img{
