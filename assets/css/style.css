@@ -206,10 +206,10 @@ footer .social-icons img{
 
 .cs5{padding: 50px 0;}
 .cs5 figure img{
-    width: 100%;
+    width: auto;
     max-width: 900px;
     height: auto;
-    max-height: 600px;
+    max-height: 450px;
 }
 
 
