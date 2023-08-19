@@ -180,12 +180,12 @@ footer .social-icons img{
     max-height: 440px;
 }
 
-.cs2 figure{
+/* .cs2 figure{
     max-width: 630px;
     overflow:  hidden;
-}
+} */
 
-.cs figure img{
+.cs2 figure img{
     width: auto;
     height: auto;
     max-height: 480px;
