@@ -233,12 +233,15 @@ footer .social-icons img{
 .csd-body li strong{font-weight: 600;}
 .csd-body p strong{font-weight: 600;}
 
-.csd-body .half-img{text-align: center;}
+.csd-body .half-img{text-align: center; margin: 0 -8px;}
+.csd-body .half-img span{
+    display: block;
+    padding-top: 0 8px;
+}
 .csd-body .half-img img{
-    width: 48%; height: auto;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 24px 8px 48px;
+    width: 100%; 
+    height: auto;
+    display: block;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -290,4 +293,9 @@ footer .bottom{padding-top:50px;background-image: none;}
 @media only screen and (max-width: 900px) {
     footer .social-icons img{width: 32px;height: auto;}
     .cs figure img{width: 100%; height: auto;}
+    .csd-body .half-img img{
+        width: 100%;
+        margin: 24px 0;
+        display: block;
+    }
 }
