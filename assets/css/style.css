@@ -8,9 +8,15 @@
     --themefont: 'Poppins', sans-serif;
     --themecolor: #0956F1;
     --themecolor_hover: #d57d1d;
+    --green: #57be57;
     --main-bg: #fafafa;
     --text-color: #404040;
     font-size: 15px;
+}
+
+.green{
+    background: var(--green);
+    border: none;
 }
 
 body {
