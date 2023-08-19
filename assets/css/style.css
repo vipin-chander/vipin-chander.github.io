@@ -233,6 +233,14 @@ footer .social-icons img{
 .csd-body li strong{font-weight: 600;}
 .csd-body p strong{font-weight: 600;}
 
+.csd-body .half-img{text-align: center;}
+.csd-body .half-img img{
+    width: 48%; height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 24px 8px 48px;
+}
+
 @media only screen and (min-width: 1024px) {
 .dnoshow{display: none !important;}
 }
