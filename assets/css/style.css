@@ -238,8 +238,6 @@ footer .bottom{padding-top:50px;background-image: none;}
 
 
 @media only screen and (max-width: 900px) {
-footer .social-icons img{
-    width: 32px;
-    height: auto;
-    }
+    footer .social-icons img{width: 32px;height: auto;}
+    .cs figure img{width: 100%; height: auto;}
 }
