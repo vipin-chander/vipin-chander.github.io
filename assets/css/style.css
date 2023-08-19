@@ -233,10 +233,14 @@ footer .social-icons img{
 .csd-body li strong{font-weight: 600;}
 .csd-body p strong{font-weight: 600;}
 
-.csd-body .half-img{text-align: center; margin: 0 -8px;}
+.csd-body .half-img{text-align: center; margin: 0 -16px;}
+.csd-body .half-img:after{
+    float: clear;
+}
 .csd-body .half-img span{
     display: block;
-    padding-top: 0 8px;
+    float: left;
+    padding-top: 0 16px;
 }
 .csd-body .half-img img{
     width: 100%; 
