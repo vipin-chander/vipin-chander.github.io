@@ -240,7 +240,7 @@ footer .social-icons img{
 .csd-body .half-img span{
     display: block;
     float: left;
-    padding-top: 0 16px;
+    padding: 0 16px;
 }
 .csd-body .half-img img{
     width: 100%; 
