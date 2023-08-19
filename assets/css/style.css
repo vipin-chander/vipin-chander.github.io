@@ -170,9 +170,7 @@ footer .social-icons img{
     border-radius: 4px;
 }
 
-.cs1{
-    padding:  50px 0;
-}
+.cs1{padding:  50px 0;}
 .cs1 figure img{
     width: 100%;
     max-width: 900px;
@@ -193,7 +191,8 @@ footer .social-icons img{
 .cs3 figure img{
     width: auto;
     height: auto;
-    max-height: 480px;
+    max-height: 640px;
+    box-shadow: none;
 }
 
 .cs4 figure img{
@@ -204,6 +203,7 @@ footer .social-icons img{
     box-shadow: none;
 }
 
+.cs5{padding: 50px 0;}
 .cs5 figure img{
     width: 100%;
     max-width: 900px;
