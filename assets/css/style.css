@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6, .font-primary { font-family: var(--themefont), sans-seri
 
 footer{color: #fff;}
 footer .top{background: url(/assets/images/wave.svg); background-size: 100%; min-height: 445px; padding: 250px 48px 0;background-repeat: no-repeat;}
-footer .bottom{border-top:1px solid #fff;background: #0956F1;padding: 25px 48px 15px; justify-content: space-between; background-position: top right; background-repeat: no-repeat;}
+footer .bottom{border-top:1px solid rgba(255,255,255, .4);background: #0956F1;padding: 25px 48px 15px; justify-content: space-between; background-position: top right; background-repeat: no-repeat;}
 .cta-ico{margin-left: -25px; width: 100px;}
 #case5{padding-top: 120px;}
 
