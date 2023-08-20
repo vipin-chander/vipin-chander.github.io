@@ -317,4 +317,10 @@ footer .bottom{padding-top:50px;background-image: none;}
     width: 80%;
     height: auto;
   }
+  .csd-body .half-img span{
+    display: block;
+    float: left;
+    padding: 16px 16px;
+    width: 10%;
+}
 }
