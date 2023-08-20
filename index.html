@@ -349,7 +349,7 @@
 
     </section>
 
-    <script type="text/javascript"
+  <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.js"></script>
     <script>
             function modifyScrolling() {
@@ -359,7 +359,7 @@
                         easing: 'swing',
                         scrollingSpeed: 800,
                         navigation: false,
-                        anchors:['home','case-studies','case2','case3','case4','about','contact', 'contact'],
+                        anchors:['home','case-studies','case2','case3','case4','case5','about'],
                         sectionSelector: '.section'
                     });
                 }
@@ -369,7 +369,17 @@
             });
             function scrollto(sectionname, parentsection){
                 if(window.outerWidth> 1023){
-                    $.fn.pagepiling.moveTo(parentsection);
+                    if(sectionname=='about'){
+                        $.fn.pagepiling.moveTo('case5');
+                        document.getElementById('about').scrollIntoView({behavior: 'smooth'}, true);
+                    }
+                    if(sectionname=='footer'){
+                        $.fn.pagepiling.moveTo('case5');
+                        document.getElementById('footer').scrollIntoView({behavior: 'smooth'}, true);
+                    }
+                    else{
+                        $.fn.pagepiling.moveTo(parentsection);
+                    }
                 }
                 var access = document.getElementById(sectionname);
                 access.scrollIntoView({behavior: 'smooth'}, true);
