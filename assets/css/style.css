@@ -234,7 +234,9 @@ footer .social-icons img{
 
 .csd-body .half-img{text-align: center; margin: 0 -16px;}
 .csd-body .half-img:after{
-    float: clear;
+    clear: both;
+    content: "";
+    display: block;
 }
 .csd-body .half-img p{
     float: left;
