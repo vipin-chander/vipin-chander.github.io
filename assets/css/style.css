@@ -236,11 +236,14 @@ footer .social-icons img{
 .csd-body .half-img:after{
     float: clear;
 }
-.csd-body .half-img span{
-    display: block;
+.csd-body .half-img p{
     float: left;
     padding: 0 16px;
     width: 50%;
+}
+.csd-body .half-img span{
+    display: block;
+    margin-bottom: 10px;
 }
 .csd-body .half-img img{
     width: 100%; 
