@@ -107,6 +107,7 @@ h1, h2, h3, h4, h5, h6, .font-primary { font-family: var(--themefont), sans-seri
 .fw600{font-weight: 600;}
 .themefont { font-family: var(--themefont); }
 .vhFull{height: 100vh;}
+.themecolor {color: var(--themecolor);}
 
 #header{background: #fff; height: 80px;}
 #home-main{ background:#ffffff url(/assets/images/softwares-bg.png) center right 100px no-repeat; background-size: 1132px 496px; }
