@@ -204,6 +204,14 @@ footer .social-icons img{
     box-shadow: none;
 }
 
+.cs6 figure img{
+    max-width: 900px;
+    height: auto;
+    box-shadow: none;
+    width: auto;
+    max-height: 500px;
+}
+
 .cs5{padding: 50px 0;}
 .cs5 figure img{
     width: 100%;
