@@ -19,6 +19,7 @@ body {
     color: var(--text-color);
     top: 0px !important;
     background: #FEFEFE;
+    overflow-x: hidden;
 }
 
 ::-moz-selection {
@@ -107,6 +108,7 @@ h1, h2, h3, h4, h5, h6, .font-primary { font-family: var(--themefont), sans-seri
 .fw600{font-weight: 600;}
 .themefont { font-family: var(--themefont); }
 .vhFull{height: 100vh;}
+.vh-90{height: 90vh;}
 .themecolor {color: var(--themecolor);}
 
 #header{background: #fff; height: 80px;}
