@@ -152,10 +152,10 @@ h1, h2, h3, h4, h5, h6, .font-primary { font-family: var(--themefont), sans-seri
 .about-grid .item7 { grid-area: 2 / 4 / 3 / 6; background: #f4f4f4 url(/assets/images/7.png);}
 .about-grid>div{min-height: 238px; border-radius: 4px; background-size: cover !important; background-repeat: no-repeat !important;}
 
-.certi-wrpr{ display: flex; align-items: center; margin: 0 auto; flex-wrap: wrap;}
-.certi-wrpr figure{flex-grow: 1;}
-.certi-wrpr img{width: 100%; max-width: 410px;}
-.certi-wrpr a{display: inline-block;}
+.certis{ display: flex; align-items: center; margin: 0 auto; flex-wrap: wrap;}
+.certis figure{flex-grow: 1;}
+.certis img{width: 100%; max-width: 410px;}
+.certis a{display: inline-block;}
 
 footer{color: #fff;}
 footer .top{background: url(/assets/images/wave.svg); background-size: 100%; min-height: 445px; padding: 250px 48px 0;background-repeat: no-repeat;}
