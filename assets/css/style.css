@@ -110,6 +110,8 @@ h1, h2, h3, h4, h5, h6, .font-primary { font-family: var(--themefont), sans-seri
 .vhFull{height: 100vh;}
 .vh-90{height: 90vh;}
 .themecolor {color: var(--themecolor);}
+.pt-80{padding-top: 80px !important;}
+.pb-80{padding-bottom: 80px !important;}
 
 #header{background: #fff; height: 80px;}
 #home-main{ background:#ffffff url(/assets/images/softwares-bg.png) center right 100px no-repeat; background-size: 1132px 496px; }
@@ -161,7 +163,6 @@ footer{color: #fff;}
 footer .top{background: url(/assets/images/wave.svg); background-size: 100%; min-height: 445px; padding: 250px 48px 0;background-repeat: no-repeat;}
 footer .bottom{border-top:1px solid rgba(255,255,255, .4);background: #0956F1;padding: 25px 48px 15px; justify-content: space-between; background-position: top right; background-repeat: no-repeat;}
 .cta-ico{margin-left: -25px; width: 100px;}
-#case5{padding-top: 120px;}
 
 footer .social-icons a{
     margin-left: 16px;
